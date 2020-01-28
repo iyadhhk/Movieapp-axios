@@ -1,0 +1,38 @@
+.movie_List {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1000px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.newMovie {
+  height: 305px;
+  width: 180px;
+  position: relative;
+  margin: 0 10px 10px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addMovie:hover {
+  background-color: #6ac040;
+  color: #1b1b1b;
+  cursor: pointer;
+}
+.addMovie:focus {
+  outline: none;
+}
+
+.addMovie {
+  height: 60px;
+  width: 60px;
+  font-size: 25px;
+  color: #6ac040;
+  background-color: #1b1b1b;
+  border: none;
+  border-radius: 50%;
+}

@@ -1,0 +1,56 @@
+.moviecard {
+  height: 350px;
+  width: 180px;
+  position: relative;
+  margin: 10px;
+}
+
+.movie_img {
+  width: 180px;
+  height: 265px;
+}
+
+.movieName {
+  padding: 2px 10px;
+  text-align: center;
+  margin: 0;
+  height: 40px;
+  width: 180px;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+.rate {
+  position: absolute;
+  bottom: 85px;
+  /* top: 0; */
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* width: 100%; */
+  text-align: right;
+}
+.movieRating {
+  color: gold;
+}
+
+.movie-btn {
+  background-color: #252525;
+  color: #ddd;
+  border: none;
+  padding: 5px 10px;
+}
+.movie-btn:hover {
+  cursor: pointer;
+  background-color: #ddd;
+  color: #252525;
+}
+.movie-btn:focus {
+  outline: none;
+}
+
+.edit-btn {
+  border-left: 1px solid #121213;
+  border-right: 1px solid #121213;
+  width: 48px;
+}
